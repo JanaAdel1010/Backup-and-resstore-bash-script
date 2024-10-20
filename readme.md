@@ -15,6 +15,7 @@ if not install using: sudo abt install bash or to update package list : sudo abt
 if make is not installed: sudo apt install make
 **To use project**
 we need to specify the source and destinantion directories in the makefile 
-aslo the interval and the max number of backups
-after that simply run each script using : make backup for the backup and : make restore for the restore 
+also the interval and the max number of backups
+after that simply run each script using : make backup for the backup 
+and : make restore for the restore 
 run : make clean to delete backup directory if you wish
